@@ -13,7 +13,7 @@ type Status string
 const (
 	StatusOk Status = "OK"
 	StatusFail Status = "FAIL"
-	StatusInProgress = "INPROGRESS"
+	StatusInProgress Status = "INPROGRESS"
 )
 
 // Payment presents information about the payment.
