@@ -23,9 +23,3 @@ type Payment struct {
 	Category 	Category
 	Status		Status
 }
-
-type PaymentSource struct {
-	Type 		string // 'card'
-	Number 		string // номер вида '5058 xxxx xxxx 8888'
-	Balance 	Money // баланс в дирамах
-}
